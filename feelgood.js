@@ -1,3 +1,10 @@
+function randomQuote(){
+  
+  var random = Math.floor(Math.random() * quotes.length); 
+  
+  document.querySelector("h2").innerHTML = quotes[random]; 
+  
+}
 
 var quotes = [
   'You\'re like a breath of fresh air',
@@ -22,10 +29,3 @@ var quotes = [
   'If cartoon bluebirds were real, a bunch of them would be sitting on your shoulders singing right now',
 ];
 
-function randomQuote(){
-  
-  var random = Math.floor(Math.random() * quotes.length); 
-  
-  document.querySelector("h2").innerHTML = quotes[random]; 
-  
-}

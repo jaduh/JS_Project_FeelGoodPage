@@ -64,14 +64,19 @@ header .scroll {
 #citaat-container{
   display:flex;
   justify-content:center;
+
+  
 } 
 
- #citaat-container  h2{
+ #citaat-container h2{
   padding: 1rem;
+     margin: 14rem 4rem 4rem 0;
    font-family: 'Lobster';
    color: white;
+     text-shadow: .05rem .05rem #000;
    text-align: center;
-   margin-top:2rem;
+   
+   
     line-height: 95%;
 }
 
@@ -90,6 +95,7 @@ button{
   font-family:lobster;
   font-size:1rem;
   color: #fff;
+    text-shadow: .05rem .05rem #000;
  
 
   
@@ -98,6 +104,7 @@ button{
 button:hover {
   background: rgba(255, 255, 255, .5);
   color: #33425B;
+    text-shadow:none;
 }
 
 .random-quote{
